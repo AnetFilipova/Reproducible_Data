@@ -1,5 +1,6 @@
 ##### Coding Challenge 1 #####
 
+#### Task 1 ####
 ### Practicing some R coding ###
 
 ## Creating a vector with values from 1 to 200 #
@@ -39,6 +40,10 @@ zdf[26,] # This is also called indexing and it takes the values from all columns
 
 ## Subset the zdf dataframe to only include the values in the column zsquared in the 180th row ##
 zdf$zsquared[180] # Returns 32400 which is the value from the zsquared column on row 180
+
+#### Task 2 ####
+tips <- read.csv("/Users/anetfilipova/Desktop/Reproducible_Data/TipsR.csv", , na.strings = ".")
+str(tips)
 
 
 
