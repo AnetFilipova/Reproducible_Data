@@ -83,5 +83,3 @@ ggplot(myco, aes(x = Treatment, y = DON, fill = Cultivar)) +
 
 
 
-
-
