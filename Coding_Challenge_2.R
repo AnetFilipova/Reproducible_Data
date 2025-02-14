@@ -81,3 +81,4 @@ ggplot(myco, aes(x = Treatment, y = DON, fill = Cultivar)) +
   scale_fill_manual(values = cbbPalette) +
   facet_wrap(~Cultivar, scale = "free")
 
+
